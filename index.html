@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   </head>
   <body>
-    <section class="section-support">
+    <section class="section-support" id="section-support">
       <!--paste heading here-->
       <div class="header"></div>
       <div class="content">
@@ -40,7 +40,7 @@
                   </div>
                   
                   <!-- <input class="submit-btn" type="submit" value="Send"> -->
-                  <a href="#" class="submit-link">Send</a>
+                  <a href="#popup" class="submit-link">Send</a>
                 </form>
               </div>
             </div>
@@ -74,5 +74,31 @@
         </div>
       </div>
     </section>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <div class="maint">
+          <div class="maint-header">
+            <a href="#section-support" class="popup-close">&times;</a>
+            <i class="las la-history"></i>
+            <span class="block-item">This section is currently under maintenance</span>
+          </div>
+
+          <div class="maint-block">
+            Follow these steps to support Mbithi:
+            <ol>
+              <li>Go to <strong>Mpesa</strong> on your phone</li>
+              <li>Select <strong>Send Money</strong></li>
+              <li>Enter this number <strong>0710 631 370</strong></li>
+              <li>Enter amount</li>
+              <li>Insert pin</li>
+            </ol>            
+          </div>
+          <div class="maint-block">
+            Thank you for supporting Mbithi!
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
