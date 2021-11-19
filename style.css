@@ -3,8 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.html {
-  font-size: 62.5%;
+
+html {
+  font-size: 95%;
+}
+
+body{
+  font-family: sans-serif;
 }
 .section-support {
   background-color: #f7f7f7;
@@ -176,4 +181,16 @@
   color: #fff;
   border-radius: 30px;
   cursor: pointer;
+}
+
+.submit-link:link,
+.submit-link:visited{
+  /* margin: 15px; */
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: #28b485;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
 }
