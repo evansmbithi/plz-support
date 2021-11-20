@@ -6,6 +6,7 @@ use Carbon\Carbon;
 if (isset($_GET['amount'])) {
     stkPush($_GET['amount']);
 }
+
 function lipaNaMpesaPassword()
 {
     //timestamp
